@@ -1,14 +1,38 @@
 {
-  "name": "eu-Schwachsinn-Vegan",
+  "name": "eu-schwachsinn-vegan",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "homepage": "https://janniscloodt.github.io/EU-Schwachsinn",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janniscloodt/EU-Schwachsinn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janniscloodt/EU-Schwachsinn/issues"
+  },
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.14"
+  },
   "devDependencies": {
-    "typescript": "^5.5.3"
-  },
-  "private": true
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
 }
