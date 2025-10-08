@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
     plugins: [react(),tailwindcss(),],
-    base: '/EU-Schwachsinn/',
+    base: '/EU-Verordnungskompatibler-Namensgenerator/',
     build: { outDir: 'build' }
 })

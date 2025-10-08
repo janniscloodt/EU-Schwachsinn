@@ -1,7 +1,7 @@
 {
   "name": "eu-schwachsinn-vegan",
   "version": "1.0.0",
-  "homepage": "https://janniscloodt.github.io/EU-Schwachsinn",
+  "homepage": "https://janniscloodt.github.io/EU-Verordnungskompatibler-Namensgenerator",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janniscloodt/EU-Schwachsinn.git"
+    "url": "git+https://github.com/janniscloodt/EU-Verordnungskompatibler-Namensgenerator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/janniscloodt/EU-Schwachsinn/issues"
+    "url": "https://github.com/janniscloodt/EU-Verordnungskompatibler-Namensgenerator/issues"
   },
   "description": "",
   "dependencies": {
